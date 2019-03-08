@@ -1,30 +1,49 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//today gonna learn update part
 public class Session3 : MonoBehaviour {
-
+    
     // Variables
     int counter = 0;
     public GameObject cubeReference;
     bool moveLeft = true;
-    bool moveRight = false; 
+    bool moveRight = false;
+
+    public GameObject cubePrefab;
+
+    public int spacing = 10;
+    public int gridX = 10;
+
+    public int gridY = 10;
 
     // Use this for initialization
-    void Start () {
+    void Start () { //different than awake
        	
 	}
 	
 	// Update is called once per frame
 	void Update () {
         // Time in frames, not very useful because of variation 
+	    //Time.deltaTime: cause different computer may render screen in different time, so deltatime shows how much time to complete last scree.
+        //totalTime     : shows entire time for this 
+
+	    Debug.Log("this computer can render a frame in" + Time.deltaTime);
+	    Debug.Log("since I start render it tooks us" + Time.timeSinceLevelLoad);
+
+        //in Unity- project -time setting:can control the time
+
+
+
+
+
         /*
         counter = counter + 1;
         if (counter % 30 == 00){
             Debug.Log("Time in frames is: " + counter/30);
         }
         */
-        
+
         // Time in milliseconds, useful because it is precise
         Debug.Log("Actual time is: " + Time.deltaTime.ToString());
 

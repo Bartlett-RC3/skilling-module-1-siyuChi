@@ -11,7 +11,8 @@ public class Session4 : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         createColumnCoroutine = DropColumns();
-    }
+     
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -25,7 +26,7 @@ public class Session4 : MonoBehaviour {
     }
 
     // Coroutines
-    IEnumerator DropColumns()
+    IEnumerator DropColumns() //i present interface, here using IE define a interface then below express hwo to use it
     {
         while (true)
         {

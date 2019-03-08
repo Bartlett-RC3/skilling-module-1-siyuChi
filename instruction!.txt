@@ -1,0 +1,25 @@
+Homework1-4:
+skilling-module-1-siyuChi\Assets\SChi_homework
+
+
+FinalAssignment
+skilling-module-1-siyuChi\Assets\SChi_finalassignment 3d
+
+1. Add a coroutine to change the cubes colour based on time spent alive:
+skilling-module-1-siyuChi\Assets\SChi_finalassignment 3d\Source\Behaviours\StackDisplay
+
+
+2. Store in a data structure the results of various frames:
+skilling-module-1-siyuChi\Assets\SChi_finalassignment 3d\Source\Behaviours\StackAnalyser
+detail position:
+(UpdateAnalysis() data structure add information CS.65
+OnGUI()       show the data structure information cs.125
+        
+)
+
+
+3. Altering the rules of the game to produce new results:
+skilling-module-1-siyuChi\Assets\SChi_finalassignment 3d\Source\Behaviours\MyCARule
+delay color the 
+(IEnumerator DisplayColor()  CS.126)
+
